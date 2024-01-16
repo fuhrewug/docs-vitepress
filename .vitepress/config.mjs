@@ -4,7 +4,6 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "docs-vitepress",
   title: "我的文档",
   head: [["link", { rel: "icon", href: "/icon.png" }]],
   description: "A VitePress Site",
@@ -34,7 +33,7 @@ export default defineConfig({
     //     ]
     //   }
     // ],
-    sidebar: { "/docs/front-end/vue/": set_sidebar("/docs/front-end/vue") },
+    // sidebar: { "/docs/front-end/vue/": set_sidebar("/docs/front-end/vue") },
     sidebar: false, // 关闭侧边栏
     aside: "left", // 设置右侧侧边栏在左侧显示
     socialLinks: [
