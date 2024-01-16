@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@iminu/vitepress-plugin-auto-sidebar": "^1.0.3",
+    "vitepress": "^1.0.0-rc.37"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
