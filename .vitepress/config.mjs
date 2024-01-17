@@ -4,6 +4,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs-vitepress/",
   title: "我的文档",
   head: [["link", { rel: "icon", href: "/icon.png" }]],
   description: "A VitePress Site",
