@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "我的文档"
   text: "关于我的笔记记录"
-  tagline: 啦啦啦啦e
+  tagline: 大叫好，我是王金龙
   image:
     src: /bg.png
     alt: VitePress
